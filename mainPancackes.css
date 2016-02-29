@@ -4,16 +4,30 @@ body {
 }
 
  .proteinpan .ingredensen, .steg, .presentation,{
-        color: black;
-    
-    
+        color: black;    
 }
 
-.cream, .tema, .portion, .vanillacream{
+
+
+.note{
+   
+    font-size: 200%
+}
+
+.proteinpan{
+    text-align: center;
+    margin-top: -2.5%;
+    font-size: 300%;
+}
+
+
+.proteinpan, .cream, .tema, .portion, .vanillacream, .doit{
     color: white;
     background: black;
     
 }
+
+
 
 .pancackepic{
     width: 100%;

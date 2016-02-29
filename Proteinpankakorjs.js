@@ -22,7 +22,7 @@ if(person<10){
     three = three + 1;
     four = four + 1;
     five = five + 1;
-    six = six+2;
+    six = six + 2;
     seven = seven + 0.5;
     eight = eight + 10;
     nine = nine + 3;
@@ -65,7 +65,7 @@ if(person<10){
 
 function minusClick() {
     if(person>1){
-person = person - 1;
+    person = person - 1;
 
     
         
@@ -120,16 +120,28 @@ person = person - 1;
 }
 
 
-function notVote() {
-    src:"Retro Star.png";
-        width: 40px;
-    height: 40px;
-}
 
-function Vote() {
-    src:"145640711989214.png";
-        width: 40px;
-    height: 40px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
