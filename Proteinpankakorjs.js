@@ -11,6 +11,7 @@ var nine = 3;
 var ten = 100;
 var eleven = 0.5;
 var twelve = 0.5;
+var thirteen = 30;
 
 function plusClick() {
 if(person<10){
@@ -29,6 +30,7 @@ if(person<10){
     ten = ten + 100;
     eleven = eleven + 0.5;
     twelve = twelve + 0.5;
+    thirteen = thirteen + 30;
 		
 
     var p = document.getElementById("ing");
@@ -44,6 +46,7 @@ if(person<10){
 	var te = document.getElementById("10");
     var el = document.getElementById("11");
     var tw = document.getElementById("12");
+    var ti = document.getElementById("13");
     
     p.innerHTML = person;
     o.innerHTML = one;
@@ -58,6 +61,7 @@ if(person<10){
     te.innerHTML = ten;
     el.innerHTML = eleven;
     tw.innerHTML = twelve;
+    ti.innerHTML = thirteen;
 		   
     }
 
@@ -82,7 +86,9 @@ function minusClick() {
     ten = ten - 100;
     eleven = eleven - 0.5;
     twelve = twelve - 0.5;
+    thirteen = thirteen - 30;
     
+        
 
     var p = document.getElementById("ing");
     var o = document.getElementById("1");
@@ -97,6 +103,7 @@ function minusClick() {
 	var te = document.getElementById("10");
     var el = document.getElementById("11");
     var tw = document.getElementById("12");
+    var ti = document.getElementById("13");
 
 
 
@@ -113,7 +120,7 @@ function minusClick() {
     te.innerHTML = ten;
     el.innerHTML = eleven;
     tw.innerHTML = twelve;
-
+    ti.innerHTML = thirteen;
 
      }
 
