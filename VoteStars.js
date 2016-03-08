@@ -75,7 +75,12 @@ function votes(i){
                 method: "GET",
                 url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=51b73eb45ead826a&recipe=protein_pankakor",
                 success: function(data) {
-                    $('#ranking').text(data.starsVote.toFixed(2) +" total röster.");
+                    $('#votes').text(data.votes+" röster");
+<<<<<<< HEAD
+                    $('#ranking').text(data.rating.toFixed(2)+" i snitt.");
+=======
+                    $('#ranking').text(data.ranking.toFixed(2)+" i snitt.");
+>>>>>>> origin/gh-pages
                 }, 
             });       
         }, 
@@ -88,7 +93,12 @@ $(document).ready ( function(){
         method: "GET",
         url: "https://edu.oscarb.se/sjk15/api/recipe/?api_key=51b73eb45ead826a&recipe=protein_pankakor",
         success: function(data) { 
-            $('#ranking').text(data.starsVote.toFixed(2) +" total röster.");
+            $('#votes').text(data.votes+" röster");
+<<<<<<< HEAD
+            $('#ranking').text(data.rating.toFixed(2)+" i snitt.");
+=======
+            $('#ranking').text(data.ranking.toFixed(2)+" i snitt.");
+>>>>>>> origin/gh-pages
         },     
     });
 });

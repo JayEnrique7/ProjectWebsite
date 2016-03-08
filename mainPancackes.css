@@ -7,7 +7,10 @@ body {
         color: black;    
 }
 
-
+#ranking, #votes{
+    float: top;
+    font-size: 150%
+}
 
 .note{
    
