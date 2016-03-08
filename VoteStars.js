@@ -77,7 +77,11 @@ function votes(i){
                 success: function(data) {
                     $('#votes').text(data.votes+" röster");
 <<<<<<< HEAD
+<<<<<<< HEAD
                     $('#ranking').text(data.rating.toFixed(2)+" i snitt.");
+=======
+                    $('#ranking').text(data.ranking.toFixed(2)+" i snitt.");
+>>>>>>> origin/gh-pages
 =======
                     $('#ranking').text(data.ranking.toFixed(2)+" i snitt.");
 >>>>>>> origin/gh-pages
@@ -95,7 +99,11 @@ $(document).ready ( function(){
         success: function(data) { 
             $('#votes').text(data.votes+" röster");
 <<<<<<< HEAD
+<<<<<<< HEAD
             $('#ranking').text(data.rating.toFixed(2)+" i snitt.");
+=======
+            $('#ranking').text(data.ranking.toFixed(2)+" i snitt.");
+>>>>>>> origin/gh-pages
 =======
             $('#ranking').text(data.ranking.toFixed(2)+" i snitt.");
 >>>>>>> origin/gh-pages
