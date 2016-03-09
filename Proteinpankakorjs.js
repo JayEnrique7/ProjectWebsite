@@ -128,5 +128,4 @@ function minusClick() {
     fou.innerHTML = fourteen;
 
      }
-
 }
