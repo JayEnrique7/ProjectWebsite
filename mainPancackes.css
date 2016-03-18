@@ -3,18 +3,22 @@ body {
    
 }
 
- .proteinpan .ingredensen, .steg, .presentation{
+ .ingredensen, .steg, .presentation{
         color: black;    
 }
 
 #ranking, #votes{
     float: top;
-    font-size: 150%
+    font-size: 120%;
+    font-weight: 900;
+    margin-left: 5px;
+    
 }
 
 .note{
    
-    font-size: 200%
+    font-size: 200%;
+        float: top;
 }
 
 .proteinpan{
